@@ -1,0 +1,20 @@
+10/3/2015:
+-Centered content by adding margins to the  body
+-replaced "Education" and "WorkExperience" div's with "sections"
+-replaced "Heading" div with "header" tag. Changed css to display:block
+-used font-face to import ComicSans and bold weight
+-changed font in body element to ComicSans
+-changed font color to bright green
+-changed background color to puke yellow
+-added transform/transition to rotate header
+-added transform/transition to skew education
+-added transform/transition to skew work experience
+-changed default background color on body to lightish blue
+-changed default background color on header/education/work experience to light grey
+-changed default font color to black
+-made ugly colors part of the transitions
+-added border-radii to each element
+-added section element ("main") within body to add layer of background colors
+-added border-radius to main
+-added rotation to main
+-added background-color transition to body

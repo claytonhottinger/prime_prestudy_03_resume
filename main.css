@@ -1,0 +1,120 @@
+
+@font-face {
+	font-family: "ComicSans";
+	src: url('Fonts/LDFComicSans.ttf');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "ComicSans";
+	src: url('Fonts/LDFComicSansBold.ttf');
+	font-style: normal;
+	font-weight: bold;
+}
+
+body {
+	background-color: #000000;
+	transition: 10s linear;
+	
+}
+
+.main {
+	background-color: #3275fb;
+	border-radius: 20px;
+	width: 50%;
+	padding: 1px 20px 20px 20px;
+	margin: 0 auto 0 auto;
+	transition: 4s ease;
+}
+
+.main:active{
+	font-family: "ComicSans";
+	color: #1be105;
+	background-color:#c0e105;
+}
+
+header, .Education, .WorkExperience {
+	border-radius:20px;
+	background-color:#ced5e3;
+	padding: 1px 20px 20px 20px;
+	margin: 20px 20px 20px 20px;
+	box-shadow: inset 5px 5px black;
+}
+
+header {
+	display: block;
+	text-align: center;
+	
+	transition: 4s linear;
+}
+
+header:active {
+	transform: rotate(360deg);
+	box-shadow: inset 40rem 10rem #ff05da;
+}
+
+
+.Education {
+	transition: 4s ease-in-out;
+}
+
+.Education:active {
+	transform: SkewX(410deg);
+	box-shadow: inset 40rem 20rem #ff05da;
+}
+
+.Education h4{
+	text-transform:uppercase;
+	font-size:24px;
+	border-bottom:solid;
+	text-align: center;
+	
+}
+
+.Education p{
+	display:inline;
+	
+	
+}
+
+
+.Education h2{
+	text-transform:uppercase;
+	font-size:16px;	
+	text-align:center;
+}
+
+
+.WorkExperience {
+	transition: 3s ease;
+}
+
+.WorkExperience:active {
+	transform: SkewY(410deg);
+	box-shadow: inset 40rem 80rem #ff05da;
+}
+
+.WorkExperience h3{
+	text-transform:uppercase;
+	font-size:24px;
+	border-bottom:solid;
+	text-align:center;
+}
+
+.hidden {
+	display: none;
+}
+
+button {
+	background-color:#3275fb;
+	border-radius: 20px;
+	height: 100px;
+	width: 300px;
+	font-size: 20px;
+}
+
+.button {
+	margin: 300px auto;
+	text-align: center;
+}
